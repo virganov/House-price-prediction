@@ -38,5 +38,5 @@ price_in_rp : (float) The estimated price of the property in Rupiah
 
 To predict house prices in Jabodetabek using machine learning models, we will use Linear Regression, Lasso, Random Forest, SVR and XGBoost.
 
-# Conclution
+# Conclusion
 The analysis reveals that XGBoost is the best-performing model based on valid_score, with a lower RMSE compared to other models. Random Forest also performs well but has a slightly higher valid_score compared to XGBoost. However, both models show significant difference between valid_score and train_score, indicating potential overfitting. For future work, it is suggested that further hyperparameter tuning is needed to enhance model performance.
